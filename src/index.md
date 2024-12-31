@@ -1,3 +1,8 @@
+---
+layout: layouts/base.njk
+title: Hello World in 11ty
+---
+
 # Hello World in 11ty
 
 This is a simple Hello World website built with 11ty (Eleventy). 

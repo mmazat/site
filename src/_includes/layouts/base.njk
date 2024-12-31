@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <style>
+    body {
+      display: flex;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .sidebar {
+      width: 200px;
+      background-color: #f4f4f4;
+      padding: 20px;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
+    .content {
+      margin-left: 220px;
+      padding: 20px;
+      overflow: auto;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Sidebar</h2>
+    <p>Fixed content here.</p>
+  </div>
+  <div class="content">
+    {{ content | safe }}
+  </div>
+</body>
+</html>
