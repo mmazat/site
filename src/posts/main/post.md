@@ -12,5 +12,5 @@ My name is Mehdi Mazaheri, and this is my personal website. I am a software, rob
 I do many DIY projects for fun as well. I will share them here.
 
 Contact:
-- [Linkedin](https://www.linkedin.com/in/mmazaheri/)
-- [Email](mailto:m.mazaheri.t@gmail.com)
+- <a href="https://www.linkedin.com/in/mmazaheri/" target="_blank">Linkedin</a>
+- <a href="mailto:m.mazaheri.t@gmail.com" target="_blank">Email</a>
