@@ -1,4 +1,4 @@
-name: Build 11ty
+name: Build and Deploy 11ty
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   pull_request:  # Trigger on pull requests to the main branch
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -29,9 +29,9 @@ jobs:
       - name: Build the project
         run: npm run build
 
-      # (Optional) Upload build artifacts
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+      # Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          name: 11ty-build
-          path: _site/  # Replace `_site/` with your output directory
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: _site  # Replace with your 11ty output directory
