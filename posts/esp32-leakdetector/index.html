@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESP32 Leak Detector</title>  
+  <style>
+    * {
+      margin: 5px;
+      box-sizing: border-box;
+    }
+    body {
+      display: flex;
+      margin: 1;
+      text-align: justify;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+    .content {
+      margin: 20px;
+      padding: 20px;
+      overflow: auto;
+      flex-grow: 1;      
+    }
+    a {
+      color: #bb86fc;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>ESP32 Leak Detector</h1>
+    <p><em>September 01, 2021</em></p>
+    <br></br>
+    <p>When I bought my first house in Toronto, I always feared having a leak in my basement without knowing it. Basement leaks due to snow, rain, or water pipe breaks are common in Toronto and can cause serious damage to the house. Therefore, as a fun DIY project, I started to develop a &quot;Leak Detector&quot; to be placed throughout the basement. In case of a leak, it sends a message to my phone. The project was  successful.
+The main challenge I had was putting the board into deep sleep mode to prevent it from draining the battery. It wasn't easy with the cheaper ESP32 boards. Additionally, every few hours, the board must wake up and send a health signal to the phone ensure the system is actively monitoring for leaks. Getting such a system to run reliably for months was not easy (at least for me).</p>
+<p>Success Story: I used to get false positive messages once in a while. Because Toronto is so humid, sometimes the floor gets wet enough that the system thinks there is a leak. One day, I got a &quot;Leak Detected&quot; message in the basement. I thought it was another false alarm, but when I went there, I found that the shower pipes going upstairs were leaking into the laundry room. At that moment, I was extremely happy because the system finally worked, even though it could have cost me thousands of dollars. I called a plumber, and he was also amazed by my system. The joy of that leak detection cost me $200.</p>
+<p>The project, and code and technical details are available here:
+<a href="https://github.com/mmazat/LeakDetectorESP32">Leak Detector github project</a></p>
+<p>Picture of one of the devices</p>
+<p><img src="image.png" alt="Leak Detector"></p>
+
+  </div>
+</body>
+</html>

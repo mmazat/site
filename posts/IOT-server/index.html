@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My IOT Server</title>  
+  <style>
+    * {
+      margin: 5px;
+      box-sizing: border-box;
+    }
+    body {
+      display: flex;
+      margin: 1;
+      text-align: justify;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+    .content {
+      margin: 20px;
+      padding: 20px;
+      overflow: auto;
+      flex-grow: 1;      
+    }
+    a {
+      color: #bb86fc;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>My IOT Server</h1>
+    <p><em>September 01, 2022</em></p>
+    <br></br>
+    <p>I have many smart devices, and connecting them directly to the main internet modem of the house is not ideal. If I move to a new house or change the wireless password, I would have to reconnect all the devices. Although modern devices are smarter in provisioning and easier to connect when changing passwords, I still prefer my &quot;Personal IOT Server&quot; solution.</p>
+<p>I placed a Raspberry Pi connected to an SSD drive inside a box. The Pi is also connected to a cheap 2G modem (~ $15). All my smart devices connect to this modem, and this modem is connected to the main internet modem. I refer to this setup as my personal IoT center.</p>
+<p>This configuration allows me to customize the modem settings extensively, such as assigning static IPs and setting long, complex passwords for the Wi-Fi, without interfering with the home internet modem. When I move to a new house, all I need to do is connect this modem to the new house modem, and all the smart devices will work Immediately.</p>
+<p>The Raspberry Pi inside the box runs MotionEye software to detect motion from my cameras and store the footage on the attached SSD <a href="/posts/esp32-cam">see my &quot;ESP32 Cam&quot; post</a>. Additionally, I use the Raspberry Pi to place some of my smart devices and my cell phone on the same network to reach their data when I'm out of the house. For this, I use the free service from <a href="https://www.zerotier.com">ZeroTier</a>, which works excellently.</p>
+<p>Inside my personal IoT server:</p>
+<p><img src="image1.png" alt="IOT Center"></p>
+<p>Finished product:</p>
+<p><img src="image.png" alt="IOT Center"></p>
+
+  </div>
+</body>
+</html>
