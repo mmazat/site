@@ -5,7 +5,7 @@
   "main": ".eleventy.js",
   "scripts": {
     "build": "eleventy",
-    "serve": "eleventy --serve",
+    "serve": "eleventy --serve --pathprefix=site",
     "deploy": "eleventy && gh-pages -d _site"
   },
   "dependencies": {

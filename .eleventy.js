@@ -16,10 +16,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/posts/**/*.jpg");
   eleventyConfig.addPassthroughCopy("src/posts/**/*.jpeg");
   eleventyConfig.addPassthroughCopy("src/posts/**/*.gif");
-
-
-  return {
-    pathPrefix: "/site/",
+  
+  // Set a global data variable for the base URL
+  eleventyConfig.addGlobalData("baseUrl",'/site/');
+  
+  return {    
+    pathPrefix: "site",
     dir: {
       input: "src",
       output: "_site"
