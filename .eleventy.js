@@ -1,7 +1,12 @@
 const { format } = require("date-fns");
 
-module.exports = function(eleventyConfig) {
+
+module.exports = async function(eleventyConfig) {
   
+  const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+
+
   eleventyConfig.addFilter("formatDate", (date, formatStr) => {
     const validDate = date ? new Date(date) : new Date();
     if (isNaN(validDate)) {
@@ -17,14 +22,14 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/posts/**/*.jpeg");
   eleventyConfig.addPassthroughCopy("src/posts/**/*.gif");
   
-  // Set a global data variable for the base URL
-  eleventyConfig.addGlobalData("baseUrl",'/site/');
-  
+  eleventyConfig.addGlobalData("pathPrefix", "/site/");
+
   return {    
-    pathPrefix: "site",
+    pathPrefix: "/site/",
     dir: {
       input: "src",
       output: "_site"
     }
   };
 };
+
