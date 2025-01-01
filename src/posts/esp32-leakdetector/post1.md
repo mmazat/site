@@ -14,5 +14,8 @@ Success Story: I used to get false positive messages once in a while. Because To
 The project, and code and technical details are available here:
 [Leak Detector github project](https://github.com/mmazat/LeakDetectorESP32)
 
+
+
 Picture of one of the devices
+
 ![Leak Detector](image.png)
