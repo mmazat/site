@@ -3,7 +3,7 @@ name: Build 11ty
 on:
   push:
     branches:
-      - main  # Trigger on pushes to the main branch
+      - master  # Trigger on pushes to the main branch
   pull_request:  # Trigger on pull requests to the main branch
 
 jobs:
