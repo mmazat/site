@@ -3,6 +3,7 @@ layout: layouts/post.njk
 title: ESP32 Leak Detector
 date: 2021-09-01
 permalink: /posts/esp32-leakdetector/
+keywords: "DIY ESP32 Leak Detector Blink"
 ---
 
 

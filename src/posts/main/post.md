@@ -2,6 +2,7 @@
 layout: layouts/post.njk
 title: Welcome To My Website
 permalink: /posts/main/
+keywords: "Mehdi Mazaheri Tehrani software robotics DIY"
 ---
 
 Hello!
