@@ -1,5 +1,14 @@
+const { format } = require("date-fns");
+
 module.exports = function(eleventyConfig) {
   
+  eleventyConfig.addFilter("formatDate", (date, formatStr) => {
+    const validDate = date ? new Date(date) : new Date();
+    if (isNaN(validDate)) {
+      throw new Error(`Invalid date: ${date}`);
+    }
+    return format(validDate, formatStr);
+  });
   eleventyConfig.addPassthroughCopy("src/images");
   
   // Copy all images from the posts directory
