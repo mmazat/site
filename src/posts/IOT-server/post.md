@@ -10,7 +10,7 @@ I placed a Raspberry Pi connected to an SSD drive inside a box. The Pi is also c
 
 This configuration allows me to customize the modem settings extensively, such as assigning static IPs and setting long, complex passwords for the Wi-Fi, without interfering with the home internet modem. When I move to a new house, all I need to do is connect this modem to the new house modem, and all the smart devices will work Immediately.
 
-The Raspberry Pi inside the box runs MotionEye software to detect motion from my cameras and store the footage on the attached SSD [see my "ESP32 Cam" post](/posts/esp32-cam). Additionally, I use the Raspberry Pi to place some of my smart devices and my cell phone on the same network to reach their data when I'm out of the house. For this, I use the free service from <a href="https://www.zerotier.com" target="_blank">ZeroTier</a>, which works excellently.
+The Raspberry Pi inside the box runs MotionEye software to detect motion from my cameras and store the footage on the attached SSD [see my "ESP32 Cam" post](/posts/esp32-cam). Additionally, I use the Raspberry Pi to place some of my smart devices and my cell phone on the same network to reach their data when I'm out of the house. For this, I use the free service from [ZeroTier](https://www.zerotier.com), which works excellently.
 
 Inside my personal IoT server:
 

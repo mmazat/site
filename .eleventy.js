@@ -28,6 +28,16 @@ module.exports = async function(eleventyConfig) {
   const pathPrefix = ""; // or /site/
   eleventyConfig.addGlobalData("pathPrefix",pathPrefix);
 
+  // Add a filter to convert markdown links to HTML links with target="_blank"
+  eleventyConfig.addFilter("externalLinks", function(content) {
+    
+    //console.log("Original content:", content);
+    const updatedContent = content.replace(/<a\s+href="(https?:\/\/[^"]+)"/g, '<a href="$1" target="_blank"');
+    //console.log("Updated content:", updatedContent);
+    return updatedContent
+  });
+
+
   return {    
     pathPrefix: pathPrefix,
     dir: {

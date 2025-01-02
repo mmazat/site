@@ -12,9 +12,8 @@ The main challenge I had was putting the board into deep sleep mode to prevent i
 
 Success Story: I used to get false positive messages once in a while. Because Toronto is so humid, sometimes the floor gets wet enough that the system thinks there is a leak. One day, I got a "Leak Detected" message in the basement. I thought it was another false alarm, but when I went there, I found that the shower pipes going upstairs were leaking into the laundry room. At that moment, I was extremely happy because the system finally worked, even though it could have cost me thousands of dollars. I called a plumber, and he was also amazed by my system. The joy of that leak detection cost me $200.
 
-The project, and code and technical details are available here:
-<a href="https://github.com/mmazat/LeakDetectorESP32" target="_blank">Github Project</a>
-
+The project, and code and technical details are available here: 
+[Github Project](https://github.com/mmazat/LeakDetectorESP32)
 
 
 Picture of one of the devices
