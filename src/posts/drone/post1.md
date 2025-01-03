@@ -4,7 +4,7 @@ title: DIY Drone Journey
 date: 2025-01-01
 permalink: /posts/drone/
 ---
-In 2024, I decided to purchase a drone. However, I returned it after just a few days as it quickly became boring. This led me to the decision to build my own drone, allowing me to continuously develop it with sensors, algorithms, and other modifications. Here are some reasons why building a drone is preferable to buying one:
+In 2024, I decided to try drone as a hobby. I bought a cheap drone to start with, but returned it immediately as it was more of a toy. This led me to the decision to build my own drone, allowing me to continuously develop it with sensors, algorithms, and other modifications. Here are some reasons why building a drone is preferable to buying one:
 
 - It is significantly cheaper, allowing you to allocate more funds towards additional gadgets.
 - Drones are prone to crashes, and being able to repair them yourself is crucial if you are serious about the hobby. Commercial drones, like those from DJI, can be costly to repair and often require dealing with customer service.
