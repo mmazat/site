@@ -9,3 +9,8 @@ I initially built a 10-inch long-range drone, inspired by this [Youtube Video](h
 The 10-inch drone:
 
 ![](image10inch.png)
+
+Drone crashes a lot, and if you build one, it is easier to repair. As you see I badly crashed this, and it only cost me 20$ to fix, by ordering a new frame, and replacing the arm. I have now 3 more spare arms.
+
+![](crash1.png)
+
