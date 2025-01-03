@@ -15,6 +15,3 @@ The level 4 autonomous driving platform:
 
 ![](image1.png)
 
-Posing like it is mine!
-
-![](image.png)
