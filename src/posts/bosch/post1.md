@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: Bosch Autonomous Driving
 permalink: /posts/bosch/
-keywords: "Bosch Autonomous Driving Athena"
+keywords: "Autonomous Driving Athena Level4"
 ---
 
 In 2021, I joined Robert Bosch's Sunnyvale, California branch, collaborating with the Localization and Fusion teams on a Level 4 autonomous driving project. Our platform was a Mercedes S-Class equipped with an array of sensors, including multiple cameras, lidars, radars, GNSS, microphones, and ultrasound sensors. 
@@ -15,3 +15,6 @@ The level 4 autonomous driving platform:
 
 ![](image1.png)
 
+Caught it in action:
+
+![](image.png)
