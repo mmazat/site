@@ -54,7 +54,7 @@
         <li><a href="#" data-post="/posts/esp32-cam/">ESP32 Cam</a></li>        
         <li><a href="#" data-post="/posts/esp32-leakdetector/">ESP32 Leak Detector</a></li>
       </ul>
-      Industrial Projects:            
+      Recent Industrial Projects:            
       <ul>        
         <li><a href="#" data-post="/posts/bosch/">Autonomous Driving</a></li>        
         <li><a href="#" data-post="/posts/zebra/">Autonomous Robot</a></li>        
@@ -71,6 +71,7 @@
 
       const postUrl = this.getAttribute('data-post');
       document.getElementById('mainframe').src = '' + postUrl;
+      window.history.pushState({}, '', postUrl);
     });
   });
   </script>
