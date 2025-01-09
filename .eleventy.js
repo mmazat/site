@@ -23,6 +23,7 @@ module.exports = async function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/posts/**/*.gif");
 
   eleventyConfig.addPassthroughCopy("src/CNAME");
+  eleventyConfig.addPassthroughCopy("src/sitemap.xml");
   
   //after directing the domain on the repository, pathPrefix is not needed
   const pathPrefix = ""; // or /site/
