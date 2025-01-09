@@ -17,9 +17,16 @@ echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> $SITEMAP_
 
 # Find all subfolders in the posts directory and add them to the sitemap
 find $POSTS_DIR -type d | while read -r dir; do
+       
+    
+    # Skip the root folder
+    if [ "$dir" == "$POSTS_DIR" ]; then
+        continue
+    fi
+    
     # Remove the leading './' from the directory path
     dir=${dir#./}
-    
+
     echo "  <url>" >> $SITEMAP_FILE
     echo "    <loc>$BASE_URL/$dir/</loc>" >> $SITEMAP_FILE
     echo "    <lastmod>$(date +'%Y-%m-%d')</lastmod>" >> $SITEMAP_FILE
