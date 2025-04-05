@@ -2,30 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mazaheri.uk/posts/main/</loc>
-    <lastmod>2025-01-08</lastmod>
+    <lastmod>2025-04-05</lastmod>
   </url>
   <url>
     <loc>https://mazaheri.uk/posts/bosch/</loc>
-    <lastmod>2025-01-08</lastmod>
+    <lastmod>2025-04-05</lastmod>
   </url>
   <url>
     <loc>https://mazaheri.uk/posts/IOT-server/</loc>
-    <lastmod>2025-01-08</lastmod>
+    <lastmod>2025-04-05</lastmod>
+  </url>
+  <url>
+    <loc>https://mazaheri.uk/posts/optech/</loc>
+    <lastmod>2025-04-05</lastmod>
   </url>
   <url>
     <loc>https://mazaheri.uk/posts/esp32-cam/</loc>
-    <lastmod>2025-01-08</lastmod>
+    <lastmod>2025-04-05</lastmod>
   </url>
   <url>
     <loc>https://mazaheri.uk/posts/drone/</loc>
-    <lastmod>2025-01-08</lastmod>
+    <lastmod>2025-04-05</lastmod>
   </url>
   <url>
     <loc>https://mazaheri.uk/posts/zebra/</loc>
-    <lastmod>2025-01-08</lastmod>
+    <lastmod>2025-04-05</lastmod>
   </url>
   <url>
     <loc>https://mazaheri.uk/posts/esp32-leakdetector/</loc>
-    <lastmod>2025-01-08</lastmod>
+    <lastmod>2025-04-05</lastmod>
   </url>
 </urlset>
