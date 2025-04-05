@@ -13,7 +13,7 @@ Tripod mounted surveying grade laser scanner:
 
 <img src="polaris.png" alt="Polaris" width="400">
 
-Compact lidar/camera/IMU mobile mapping solution:
+Compact lidar/camera/INS mobile mapping solution:
 
 <img src="maverick.png" alt="Maverick" width="400">
 
