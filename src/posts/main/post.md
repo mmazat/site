@@ -5,11 +5,11 @@ permalink: /posts/main/
 keywords: "Mehdi Mazaheri Tehrani software robotics DIY"
 ---
 
-Hello!
+Hello
 
-My name is Mehdi Mazaheri, and this is my personal website. I am a software, robotics, and geomatics engineer, currently living and working in San Francisco Bay Area.
+My name is Mehdi Mazaheri, and welcome to my personal website! I am a software and computer vision engineer specializing in robot navigation and 3D reconstruction. Currently, I reside and work in the San Francisco Bay Area.
 
-I do many DIY projects besides my professional career. I will share some of them here.
+Feel free to explore my website, where I will be sharing my fun DIY projects alongside insights from my professional journey.
 
 Contact:
 - [Linkedin](https://www.linkedin.com/in/mmazaheri/) 
