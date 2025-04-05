@@ -9,4 +9,4 @@ I built a 3.5-inch drone following [this video](https://youtu.be/aXrrg48auhU?si=
 
 Here is an image of the 3.5-inch drone:
 
-![](image35inch.png)
+<img src="image35inch.png" width="400">
