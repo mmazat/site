@@ -14,9 +14,10 @@ The Raspberry Pi inside the box runs MotionEye software to detect motion from my
 
 Inside my personal IoT server:
 
-![IOT Center](image1.png)
+<img src="image1.png" width="400">
+
 
 Finished product:
 
-![IOT Center](image.png)
+<img src="image.png" width="400">
 

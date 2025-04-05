@@ -18,4 +18,4 @@ The project, and code and technical details are available here:
 
 Picture of one of the devices
 
-![Leak Detector](image.png)
+<img src="image.png" width="400">

@@ -13,8 +13,8 @@ Interestingly, not many people are aware that Bosch is the world's largest autom
 
 The level 4 autonomous driving platform:
 
-![](image1.png)
+<img src="image1.png" width="400">
 
 Caught it in action:
 
-![](image.png)
+<img src="image.png" width="400">

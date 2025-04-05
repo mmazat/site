@@ -11,8 +11,9 @@ I developed the visual SLAM initially and then led a team to elevate it to a tig
 
 Here is an image of the Zebra Smart Sight:
 
-![](image_smartsight.png)
+<img src="image_smartsight.png"  width="400">
 
 I spent many nights testing this robot in retail stores, as daytime testing would interfere with normal store operations. Below is a picture of me diagnosing a robot at 3 AM:
 
-![](image.png)
+<img src="image.png"  width="400">
+
